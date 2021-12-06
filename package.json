@@ -1,0 +1,23 @@
+{
+  "name": "node_UT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "chai-subset": "^1.6.0",
+    "mocha": "^9.1.3",
+    "nock": "^13.2.1"
+  }
+}
